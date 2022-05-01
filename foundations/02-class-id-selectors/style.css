@@ -1,3 +1,19 @@
 .cool {
     font-size: 24px;
 }
+
+.odd {
+    background-color: #fda9c5;
+    font-family: verdana, DejaVu Sans, sans-serif;
+}
+
+#top {
+    color: #0D47A1;
+    font-size: 36px;
+}
+
+#bottom {
+    background-color: #58D68D;
+    font-size: 24px;
+    font-weight: bold;
+}
