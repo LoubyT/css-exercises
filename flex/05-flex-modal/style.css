@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +19,21 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
+  padding: 12px;
+}
+
+.text {
+  padding-bottom: 16px;
+  padding-left: 55px;
+  font-size: medium;
 }
 
 .icon {
@@ -46,17 +60,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin: 5px;
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-left: 55px;
 }
 
 button.cancel {
